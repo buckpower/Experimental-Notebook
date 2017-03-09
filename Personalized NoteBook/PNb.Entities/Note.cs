@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PNb_Data
+namespace PNb.Entities
 {
-    class Program
+    public class Note
     {
+        public Guid ID { get; set; }
+        public string  Content { get; set; }
     }
 }

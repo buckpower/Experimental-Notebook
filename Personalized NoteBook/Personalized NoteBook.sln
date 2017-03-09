@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personalized NoteBook", "Personalized NoteBook\Personalized NoteBook.csproj", "{EC88746E-5F34-4DF8-BDD1-660A1AC12208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNb-Data", "PNb-Data\PNb-Data.csproj", "{3B7FCF9C-7A49-4F37-A5AD-6CC710704043}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNb.Data", "PNb.Data\PNb.Data.csproj", "{3B7FCF9C-7A49-4F37-A5AD-6CC710704043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNb-Entities", "PNb-Entities\PNb-Entities.csproj", "{DED280B4-49EF-44E8-816B-1532760B6817}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNb.Entities", "PNb.Entities\PNb.Entities.csproj", "{DED280B4-49EF-44E8-816B-1532760B6817}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

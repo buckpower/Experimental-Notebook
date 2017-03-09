@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PNb.Data\PNb.Data.csproj">
+      <Project>{3B7FCF9C-7A49-4F37-A5AD-6CC710704043}</Project>
+      <Name>PNb.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PNb.Entities\PNb.Entities.csproj">
+      <Project>{DED280B4-49EF-44E8-816B-1532760B6817}</Project>
+      <Name>PNb.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
